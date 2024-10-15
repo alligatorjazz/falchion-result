@@ -1,7 +1,7 @@
 {
-	"name": "ts-lib-starter",
+	"name": "simple-result",
 	"version": "0.1.0rc1",
-	"description": "A starter repo for new typescript libraries.",
+	"description": "A very minimal Result type for Typescript that is lightly inspired by Rust.",
 	"main": "dist/index.js",
 	"type": "module",
 	"scripts": {
