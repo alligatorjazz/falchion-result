@@ -1,5 +1,6 @@
 {
-	"exclude": ["lib/**/*.test.ts"],
+	"include": ["lib/**/*.ts"],
+	"exclude": ["lib/**/*.test.ts", "dist/**/*"],
 	"compilerOptions": {
 		/* Visit https://aka.ms/tsconfig to read more about this file */
 		/* Projects */
