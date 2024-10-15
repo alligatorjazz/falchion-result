@@ -1,6 +1,6 @@
 {
 	"name": "simple-result",
-	"version": "0.1.0rc1",
+	"version": "0.1.1",
 	"description": "A very minimal Result type for Typescript that is lightly inspired by Rust.",
 	"main": "dist/index.js",
 	"type": "module",
