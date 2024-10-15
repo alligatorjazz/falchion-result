@@ -1,5 +1,5 @@
 {
-	"name": "simple-result",
+	"name": "falchion-result",
 	"version": "0.1.1",
 	"description": "A very minimal Result type for Typescript that is lightly inspired by Rust.",
 	"main": "dist/index.js",
@@ -7,7 +7,7 @@
 	"scripts": {
 		"build": "tsc",
 		"test": "vitest --run",
-		"check": "tsc --noEmit",
+		"check": "[ dist/index.js -nt src/index.ts ] && exit 0 || npm run build",
 		"dev": "esrun --watch dist/index.js",
 		"start": "node dist/index.js"
 	},
@@ -15,7 +15,7 @@
 		"check"
 	],
 	"author": "Falchion Studios",
-	"license": "UNLICENSED",
+	"license": "GPL-3.0-only",
 	"devDependencies": {
 		"esrun": "^3.2.26",
 		"pre-commit": "^1.2.2",
